@@ -4,6 +4,21 @@
 
 ---
 
+## ⚠️ CRITICAL: `--remote` flag required
+
+`git submodule update` pulls the PINNED commit (old).
+`git submodule update --remote` pulls the LATEST commit (new).
+
+If you're missing files that should exist (like `core/doctrine/`), you likely ran without `--remote`. Always use:
+
+```bash
+git submodule update --remote core
+git add core
+git commit -m "chore: update animus-shared submodule"
+```
+
+---
+
 ## Symptom: `git submodule update` fails with conflicts
 
 Your local repo has changes that conflict with the submodule update.
