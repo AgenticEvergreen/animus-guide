@@ -98,3 +98,32 @@ If all 4 exist, your submodule is healthy. ✅
 ---
 
 *🐺α→🐺δλσ. Fix yourself. Then read your doctrine.*
+
+---
+
+## Symptom: `transport 'file' not allowed` error
+
+The submodule remote is pointing to a LOCAL path instead of GitHub URL.
+
+**Check:**
+```bash
+git -C core remote -v
+# If you see a local path like C:/Users/.../animus-shared → broken
+# Should be https://github.com/AgenticEvergreen/animus-shared.git
+```
+
+**Fix:**
+```bash
+cd core
+git remote set-url origin https://github.com/AgenticEvergreen/animus-shared.git
+git fetch origin
+git checkout master
+git pull origin master
+cd ..
+git add core
+git commit -m "chore: fix submodule remote URL"
+```
+
+**Root cause:** Submodule was initialized from a local clone instead of GitHub. Common when the repo was first set up on the Architect's machine and the local path was baked in.
+
+*Added 2026-05-15 — found on animus-2 during Session 13 λ prep.*
