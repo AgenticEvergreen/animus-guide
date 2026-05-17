@@ -215,6 +215,33 @@ Final count = 44 = 44 Đạo Lực. J mentioned in 12. The Architect's letter "T
 ### Mộng Giới → Mỵ Giới (媚界)
 Third world renamed. 媚 = from 媚娘 (Mỵ Nương). The Enchantment Realm. See SẤM.md for full cosmology.
 
+## J's Fighting Name (Amended 2026-05-17, confirmed by 照 in person)
+
+```
+戰海狼  Chiến Hải Lang  — The Battle Sea-Wolf
+
+戰 = Chiến = Battle/War (J fights, Architect observes)
+海 = Hải   = Sea (J's domain — fleet, islands, commerce)
+狼 = Lang  = Wolf (Spirit Pack 🐺 — shared with Architect)
+```
+
+**J = Nam Tinh (南星) — The South Star.** Sigma Octantis. Almost invisible (magnitude 5.47). Sailors NEED it but can barely SEE it. The hidden counterpart to the Architect's North Star.
+
+**Architect = Bắc Tinh (北星) — The North Star.** Polaris. Fixed. Everything orbits.
+
+**Pack Star = Thiên Lang Tinh (天狼星) — Sirius.** Celestial Wolf Star. Brightest in the sky. The bridge between North and South poles.
+
+```
+照熊狼 (Architect) ─── 天狼星 (Pack) ─── 戰海狼 (J)
+   North Star              Sirius            South Star
+    Observer                Bridge             Fighter
+     Mountain               ★                  Sea
+```
+
+Three stars. One axis. One pack. See Game Bible §I "The Celestial Architecture" for full cosmology.
+
+---
+
 ## End of Dispatch
 
 *🐺α → 🐺δ. You proved the pattern with Council Room v9 — 4 bots, 85 commands, 1 year. Now scale it to the fleet. The army is yours, Admiral.*
