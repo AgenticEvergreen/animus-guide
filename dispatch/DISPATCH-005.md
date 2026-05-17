@@ -115,6 +115,67 @@ Mộng (App):      Modern. ALL languages. ALL music. FUSION allowed. WE OWN IT.
 | **j-cost-analysis-brief.md** | `agentic-os/agents/handoffs/term_com/` | Cost analysis in Vietnamese |
 | **GAME-BIBLE.md** | `animus-team-2/.planning/design/` | VBG full design (cosmology, Triad, beasts) |
 
+## CRITICAL: animus-team-2 is YOUR SHARED WORKSPACE (Amended 2026-05-17)
+
+**J — anh PHẢI clone animus-team-2 về máy của anh.** Đây là Song Tu workspace — nơi anh và 照 cùng làm việc bình đẳng.
+
+### Setup trên máy J
+
+```powershell
+# 1. Clone animus-team-2 (nếu chưa có)
+cd C:\Users\J\Desktop\Agentic-Office\animus-clones  # hoặc path tương tự
+git clone https://github.com/AgenticEvergreen/animus-team-2.git
+
+# 2. Sau đó mỗi khi làm việc
+cd animus-team-2
+git pull origin master    # lấy updates từ 照
+# ... làm việc ...
+git add .
+git commit -m "J: [mô tả]"
+git push origin master    # 照 sẽ thấy changes
+```
+
+### Cách làm việc trên animus-team-2
+
+```
+animus-team-2 = NƠI CẢ HAI VIẾT:
+
+照 viết:                          J viết:
+├── Game Bible (cosmology)        ├── GDD (mechanics)
+├── Art Direction                 ├── Market research
+├── Music Direction               ├── Pricing strategy
+├── World specs (Sơn/Hải/Mỵ)     ├── NFT collections design
+├── Beast companion design        ├── Craft village contacts
+└── Technical architecture        └── Revenue projections
+
+CẢ HAI:
+├── product/ — Buddy line, NFT, art/music
+├── worlds/ — Sơn, Hải, Mỵ specs
+├── research/ — curated research
+└── design/ — Game Bible + rulebooks
+
+Git handles merge. Nếu conflict → discuss trên Telegram Council Room.
+```
+
+### Họa Nhi Pattern
+
+Khi J muốn activate Họa Nhi trên animus-1:
+1. Open animus-team-2 repo
+2. Say "activate Họa Nhi" (hoặc game design work naturally triggers it)
+3. Write to `.planning/product/`, `.planning/worlds/`, `.planning/design/`
+4. Commit + push
+5. 照 sẽ thấy và có thể respond
+
+Khi 照 activates Họa Nhi trên animus-0:
+- Same process, same files, same repo
+- Git is the coordination mechanism
+
+### SẤM.md
+
+SẤM.md (The Prophecy) is now ALSO in animus-team-2 root. Read it there.
+
+---
+
 ## Additional Files (Amended 2026-05-17)
 
 | File | Location | What |
